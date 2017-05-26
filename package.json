@@ -19,26 +19,24 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.1",
-    "body-parser": "^1.17.2",
-    "concurrently": "^3.4.0",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.3",
-    "normalize.scss": "^0.1.0",
-    "vue": "^2.2.1",
-    "vue-router": "^2.5.3",
-    "yamljs": "^0.2.10"
-  },
-  "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-latest": "^6.0.0",
+    "body-parser": "^1.17.2",
+    "concurrently": "^3.4.0",
     "cross-env": "^5.0.0",
     "css-loader": "^0.25.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
     "file-loader": "^0.9.0",
     "node-sass": "^4.5.0",
+    "normalize.scss": "^0.1.0",
     "sass-loader": "^5.0.1",
+    "vue": "^2.2.1",
     "vue-loader": "^11.1.4",
+    "vue-router": "^2.5.3",
     "vue-template-compiler": "^2.2.1",
-    "webpack": "^2.2.0"
+    "webpack": "^2.2.0",
+    "yamljs": "^0.2.10"
   }
 }
