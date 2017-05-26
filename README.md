@@ -1,6 +1,6 @@
 # VueMe
 
-##### Content Management System powered by VueJS and ExpressJS.
+##### Content Management System powered by Vue.js and Express.js.
 
 This is the main package for the VueMe CMS. This package comes with an admin panel, and a default them used as reference.
 
