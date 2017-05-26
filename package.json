@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development webpack --progress --watch",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "serve": "node index.js",
-    "start": "concurrently \"node index.js\" \"yarn run dev\""
+    "build": "cross-env NODE_ENV=development webpack",
+    "watch": "cross-env NODE_ENV=development webpack --progress",
+    "prod": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "node index.js"
   },
   "keywords": [
     "vue",
