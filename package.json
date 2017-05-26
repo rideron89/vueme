@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Content Management System powered by VueJS and ExpressJS.",
   "main": "index.js",
+  "engines": {
+    "yarn": "^0.24.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=development webpack",
