@@ -1,45 +1,47 @@
 {
-  "name": "vueme",
-  "version": "1.0.0",
-  "description": "Content Management System powered by VueJS and ExpressJS.",
-  "main": "index.js",
-  "engines": {
-    "yarn": "^0.24.4"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=development webpack",
-    "watch": "cross-env NODE_ENV=development webpack --progress",
-    "prod": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "node index.js"
-  },
-  "keywords": [
-    "vue",
-    "cms",
-    "express"
-  ],
-  "author": "Ron Rider <rideron89@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.16.1",
-    "babel-core": "^6.0.0",
-    "babel-loader": "^6.0.0",
-    "babel-preset-latest": "^6.0.0",
-    "body-parser": "^1.17.2",
-    "concurrently": "^3.4.0",
-    "cross-env": "^5.0.0",
-    "css-loader": "^0.25.0",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.3",
-    "file-loader": "^0.9.0",
-    "node-sass": "^4.5.0",
-    "normalize.scss": "^0.1.0",
-    "sass-loader": "^5.0.1",
-    "vue": "^2.2.1",
-    "vue-loader": "^11.1.4",
-    "vue-router": "^2.5.3",
-    "vue-template-compiler": "^2.2.1",
-    "webpack": "^2.2.0",
-    "yamljs": "^0.2.10"
-  }
+    "name": "vueme",
+    "version": "1.0.0",
+    "description": "Content Management System powered by VueJS and ExpressJS.",
+    "main": "index.js",
+    "engines": {
+        "yarn": "^0.24.4"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-dev": "cross-env NODE_ENV=development webpack --progress",
+        "build-prod": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+        "watch": "cross-env NODE_ENV=development webpack --progress --watch",
+        "start": "concurrently \"cross-env NODE_ENV=production webpack --progress --hide-modules\" \"node index.js\""
+    },
+    "keywords": [
+        "vue",
+        "cms",
+        "express"
+    ],
+    "author": "Ron Rider <rideron89@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.16.1",
+        "babel-core": "^6.0.0",
+        "babel-loader": "^6.0.0",
+        "babel-preset-latest": "^6.0.0",
+        "bcrypt": "^1.0.2",
+        "body-parser": "^1.17.2",
+        "concurrently": "^3.4.0",
+        "cross-env": "^5.0.0",
+        "css-loader": "^0.25.0",
+        "dotenv": "^4.0.0",
+        "express": "^4.15.3",
+        "file-loader": "^0.9.0",
+        "multer": "^1.3.0",
+        "node-sass": "^4.5.0",
+        "normalize.scss": "^0.1.0",
+        "sass-loader": "^5.0.1",
+        "vue": "^2.2.1",
+        "vue-loader": "^11.1.4",
+        "vue-router": "^2.5.3",
+        "vue-template-compiler": "^2.2.1",
+        "webpack": "^2.2.0",
+        "yamljs": "^0.2.10"
+    }
 }
