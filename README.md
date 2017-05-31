@@ -1,8 +1,8 @@
 # VueMe
 
-##### Content Management System powered by Vue.js and Express.js.
+Content Management System powered by Vue.js and Express.js.
 
-This is the main package for the VueMe CMS. This package comes with an admin panel, and a default them used as reference.
+This is the main package for the VueMe CMS. No theme is included in this package. A default theme will eventually be provided for guidance.
 
 ## Requirements
 
@@ -15,14 +15,17 @@ This is the main package for the VueMe CMS. This package comes with an admin pan
 # install dependencies for VueMe and the admin panel
 yarn
 
-# start the server and watch source files for development (runs `serve` and `dev`)
+# build source files for development
+yarn run build-dev
+
+# build and minify source files for production
+yarn run build-prod
+
+# build and watch source files for development
+yarn run watch
+
+# build and minify source files and start the web server
 yarn run start
-
-# start the server
-yarn run serve
-
-# watch source files for development
-yarn run dev
 ```
 
 More features yet to come...
