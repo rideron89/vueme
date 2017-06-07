@@ -1,8 +1,8 @@
 # VueMe
 
-Content Management System powered by Vue.js and Express.js.
+Flat-file CMS (Content Management System) powered by Vue.js and Express.js.
 
-This is the main package for the VueMe CMS. No theme is included in this package. A default theme will eventually be provided for guidance.
+This is the main package for the VueMe project. No theme is included in this package. A default theme will eventually be provided for guidance.
 
 ## Requirements
 
