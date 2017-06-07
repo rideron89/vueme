@@ -22,7 +22,7 @@ This is the main package for the VueMe project. No theme is included in this pac
 
 ## Installation & Usage
 
-#### Setup
+### Setup
 
 Clone the package and remove git.
 
@@ -38,7 +38,7 @@ $ npm install
 $ npm run start
 ```
 
-#### Accessing the admin panel
+### Accessing the admin panel
 
 By default, the admin panel is located at `http://localhost:3000/admin`. A default user has been set up with the following credentials:
 
@@ -56,7 +56,7 @@ VueMe uses [dotenv](https://github.com/motdotla/dotenv) configuration with a `.e
 $ cp .env.example .env
 ```
 
-#### Config options
+### Config options
 
 ```bash
 # Secret key used for authentication (should be changed for each project)

@@ -1,8 +1,8 @@
 ## Contributing
 
-Any contributions are greatly appreciated, either in the form of issue requests, or pull requests. If you wish to fix an issue, please adhere to the following guidelines and open a pull request when you are finished.
+Any contributions are greatly appreciated, either in the creation of issues, or pull requests. If you wish to fix an issue, please use the below information while developing.
 
-#### Build commands
+### Development
 
 Various commands are offered for compiling VueMe and the admin panel.
 
@@ -25,3 +25,5 @@ $ npm run serve
 # Concurrently build for production and start the web server
 $ npm run start
 ```
+
+Please do not include output files in `admin/dist/` in your commits.
