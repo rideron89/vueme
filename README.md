@@ -4,6 +4,18 @@ Flat-file CMS (Content Management System) powered by Vue.js and Express.js.
 
 This is the main package for the VueMe project. No theme is included in this package. A default theme will eventually be provided for guidance.
 
+## Contents
+
+* [Requirements](https://github.com/rideron89/vueme#requirements)
+* [Installation & Usage](https://github.com/rideron89/vueme#installation--usage)
+    * [Setup](https://github.com/rideron89/vueme#setup)
+    * [Build commands](https://github.com/rideron89/vueme#build-commands)
+    * [Accessing the admin panel](https://github.com/rideron89/vueme#accessing-the-admin-panel)
+* [Configuration](https://github.com/rideron89/vueme#configuration)
+    * [Config options](https://github.com/rideron89/vueme#config-options)
+* [Contributing](https://github.com/rideron89/vueme#contributing)
+* [License](https://github.com/rideron89/vueme#license)
+
 ## Requirements
 
 * [Node.js](https://nodejs.org/en/) (and NPM)
@@ -69,7 +81,7 @@ VueMe uses [dotenv](https://github.com/motdotla/dotenv) configuration with a `.e
 $ cp .env.example .env
 ```
 
-#### Config Options
+#### Config options
 
 ```bash
 # Secret key used for authentication (should be changed for each project)
