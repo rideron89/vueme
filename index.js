@@ -56,7 +56,22 @@ const jwt_opts = {
 // passport strategy for authenticating JWT requests
 passport.use(new JWTStrategy(jwt_opts, function(jwt_payload, done) {
     if (USERS[jwt_payload.username] === undefined) {
-        return done(null, false, { message: 'Token has expired' });
+        let username = jwt_payload.username;
+        let password = jwt_payload.password;
+        let file_path = `${__dirname}/content/users/${username}.yaml`;
+        let yaml = null;
+
+        if (fs.existsSync(file_path) === false) {
+            return res.send({ error: true, message: 'User does not exist' });
+        }
+
+        yaml = YAML.load(file_path);
+
+        if (jwt_payload.password !== yaml.password) {
+            return done(null, false, { message: 'Incorrect username/password combo' });
+        }
+
+        return done(null, jwt_payload);
     }
 
     if (USERS[jwt_payload.username] !== jwt_payload.password) {
