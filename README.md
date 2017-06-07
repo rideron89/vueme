@@ -9,7 +9,6 @@ This is the main package for the VueMe project. No theme is included in this pac
 * [Requirements](https://github.com/rideron89/vueme#requirements)
 * [Installation & Usage](https://github.com/rideron89/vueme#installation--usage)
     * [Setup](https://github.com/rideron89/vueme#setup)
-    * [Build commands](https://github.com/rideron89/vueme#build-commands)
     * [Accessing the admin panel](https://github.com/rideron89/vueme#accessing-the-admin-panel)
 * [Configuration](https://github.com/rideron89/vueme#configuration)
     * [Config options](https://github.com/rideron89/vueme#config-options)
@@ -36,30 +35,6 @@ $ rm -r .git/
 Install dependencies and startup the project.
 ```bash
 $ npm install
-$ npm run start
-```
-
-#### Build commands
-
-Various commands are supplied for compiling VueMe and the admin panel.
-
-```bash
-# Run unit tests (currently unsupported)
-$ npm run test
-
-# Build for development
-$ npm run build-dev
-
-# Build for production
-$ npm run build-prod
-
-# Watch files and build for development
-$ npm run watch
-
-# Start the web server
-$ npm run serve
-
-# Concurrently build for production and start the web server
 $ npm run start
 ```
 
@@ -103,7 +78,7 @@ You can read about bcrypt and salt rounds here: https://github.com/kelektiv/node
 
 ## Contributing
 
-The project is not currently in a state ready for public contributions.
+Any and all contributions are greatly appreciated. If you wish to help, please refer to the Contributions [guidelines](https://github.com/rideron89/vueme/CONTRIBUTIONS.md).
 
 ## License
 
