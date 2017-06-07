@@ -12,7 +12,7 @@ const passport = require('passport');
 const JWTStrategy = require('passport-jwt').Strategy;
 
 // load environment variables
-const config = require('./config');
+const config = require('./src/config');
 
 /**
 * IMPORTANT: Holds all user logins in memory so we don't need to keep loading them from the disk
