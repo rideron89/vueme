@@ -11,22 +11,41 @@ This is the main package for the VueMe CMS. No theme is included in this package
 
 ## Installation & Usage
 
+#### Building the package
+
+Build commands for compiling VueMe and the admin panel. Feel free to replace `yarn` with `npm`.
+
 ```bash
-# install dependencies for VueMe and the admin panel
-yarn
+# Run unit tests (currently unsupported)
+$ yarn run test
 
-# build source files for development
-yarn run build-dev
+# Build for development
+$ yarn run build-dev
 
-# build and minify source files for production
-yarn run build-prod
+# Build for production
+$ yarn run build-prod
 
-# build and watch source files for development
-yarn run watch
+# Watch files and build for development
+$ yarn run watch
 
-# build and minify source files and start the web server
-yarn run start
+# Start the web server
+$ yarn run serve
+
+# Concurrently build for production and start the web server
+$ yarn run start
 ```
+
+#### Accessing the admin panel
+
+By default, the admin panel is located at `/admin`. A default user has been set up with the following credentials:
+
+Username: `admin`
+
+Password: `admin`
+
+**Note:** The password should be changed before deploying to production.
+
+---
 
 More features yet to come...
 
