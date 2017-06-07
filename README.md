@@ -78,7 +78,7 @@ You can read about bcrypt and salt rounds here: https://github.com/kelektiv/node
 
 ## Contributing
 
-Any and all contributions are greatly appreciated. If you wish to help, please refer to the Contributions [guidelines](https://github.com/rideron89/vueme/CONTRIBUTIONS.md).
+Any and all contributions are greatly appreciated. If you wish to help, please refer to the Contributions [guidelines](https://github.com/rideron89/vueme/blob/master/CONTRIBUTING.md).
 
 ## License
 
