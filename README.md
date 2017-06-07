@@ -51,4 +51,8 @@ More features yet to come...
 
 ## Contributing
 
-Section to be filled out later.
+The project is not currently in a state ready for public contributions.
+
+## License
+
+MIT
