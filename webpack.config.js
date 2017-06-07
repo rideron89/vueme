@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/admin.js',
     output: {
         path: path.resolve(__dirname, './admin/dist'),
         publicPath: '/admin/dist/',

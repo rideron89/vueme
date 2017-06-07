@@ -7,6 +7,8 @@
             <route-link to="/admin/media" @update="pathChange">Media</route-link>
             <route-link to="/admin/pages" @update="pathChange">Pages</route-link>
             <route-link to="/admin/users" @update="pathChange">Users</route-link>
+
+            <button type="button" @click="logout">Logout</button>
         </nav>
 
         <stats-page v-if="new RegExp(/\/admin\/?$/).test(currentRoute)" @update="pathChange"></stats-page>
@@ -59,10 +61,17 @@
         },
 
         mounted() {
-            //
+            window.addEventListener('popstate', this.pathChange);
         },
 
         methods: {
+            logout: function() {
+                sessionStorage.removeItem('jwt');
+                localStorage.removeItem('jwt');
+
+                window.location.reload();
+            },
+
             pathChange: function() {
                 this.currentRoute = window.location.pathname;
             }
